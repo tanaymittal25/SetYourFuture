@@ -1708,7 +1708,7 @@ end()
     line(179+i,238,152+i,238);
     line(179+i,255,152+i,255);
     line(152+i,255,152+i,238);
-    delay(20);
+    delay(25);
   }
   setcolor(GREEN);
   settextstyle(3,0,5);
