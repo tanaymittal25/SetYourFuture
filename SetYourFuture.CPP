@@ -10,6 +10,7 @@
 #include<ctype.h>
 #include<fstream.h>
 #include<stdlib.h>
+
 /**************************************
         DECLERATION OF FUNCTIONS
 **************************************/
@@ -1736,9 +1737,7 @@ main()
     int option;
     option=mouse_welcome();
     if(option==0)
-    {
       break;
-    }
   }
   end();
   closegraph();
