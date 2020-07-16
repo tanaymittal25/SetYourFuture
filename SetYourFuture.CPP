@@ -1,5 +1,5 @@
 /**************************************
-            HEADER FILES 
+            HEADER FILES
 **************************************/
 
 #include<graphics.h>
@@ -45,7 +45,7 @@ end();
 int btn,mouse_x,mouse_y;
 
 /**************************************
-        MOUSE CONFIGURATION 
+        MOUSE CONFIGURATION
 **************************************/
 
 union REGS i,o;
@@ -104,7 +104,7 @@ void mouse()
   showmouseptr();
 }
 /**************************************
-        FUNTION DEFINITIONS 
+        FUNTION DEFINITIONS
 **************************************/
 
 void show(int x, int y, char ch[])
@@ -164,7 +164,7 @@ void process(int count)
 }
 
 /**************************************
-          CLASS DEFINITIONS 
+          CLASS DEFINITIONS
 **************************************/
 
 class employ
@@ -277,7 +277,7 @@ class Signup
     }
 }S;
 /**************************************
-      MEMBER FUNCTION DEFINITIONS 
+      MEMBER FUNCTION DEFINITIONS
 **************************************/
 
 employ::read_data()
@@ -473,7 +473,7 @@ Register()
 }
 
 /**************************************
-      FUNTION TO CHANGE PASSWORD 
+      FUNTION TO CHANGE PASSWORD
 **************************************/
 
 change_password()
@@ -1669,7 +1669,7 @@ mouse_welcome()
 }
 
 /**************************************
-           FUNCTION TO END 
+           FUNCTION TO END
 **************************************/
 
 end()
@@ -1719,7 +1719,7 @@ end()
 }
 
 /**************************************
-            MAIN FUNCTION 
+            MAIN FUNCTION
 **************************************/
 
 main()
